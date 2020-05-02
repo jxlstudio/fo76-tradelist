@@ -2,7 +2,7 @@
 
 Built with Gridsome, Vue.js, Airtable and TailwindCSS. See demo: <https://fo76-tradelist.netlify.app/>
 
-Dynamically pulls your trade and wants lists from an Airtable base. Also features: persistant "likes" for each row using `localStorage` and Dark-mode switch (uses device's dark-mode settings).
+Dynamically pulls your trade and wants lists from an Airtable base. Also features: persistant "likes" for each row using `localStorage` and a Dark-mode switch (uses device's dark-mode settings).
 
 You can copy the Airtable Base template I used [here](https://airtable.com/shr1RuKLNmY2LMKoe/tblUhmQeUnHVFn5e6/viwc7TVJmYQFvYXzN?blocks=hide). Set Prefix, Model, Lvl and Perks to set the Name, Perk Count, and Stars fields, which are function fields that are filled dynamically.
 
@@ -11,6 +11,14 @@ You can copy the Airtable Base template I used [here](https://airtable.com/shr1R
 With Gridsome and Github, you can easily set this list up to deploy to Netlify hosting for free. Find details here: <https://gridsome.org/docs/deploy-to-netlify/>
 
 # Installation
+
+## Install Gridsome CLI
+
+```
+npm install --global @gridsome/cli
+```
+
+More details on Gridsome CLI are [here](https://gridsome.org/docs/gridsome-cli/).
 
 ## Clone Repo
 
