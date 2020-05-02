@@ -1,14 +1,11 @@
-# Default starter for Gridsome
+# Fallout 76 Custom Trade List
 
-This is the project you get when you run `gridsome create new-project`.
+Built with Gridsome, Vue.js, Airtable and TailwindCSS.
 
-### 1. Install Gridsome CLI tool if you don't have
+Dynamically pulls your trade list from Airtable, or any cloud-based spreadsheet app with API access (requires forking and changing much of the source code).
 
-`npm install --global @gridsome/cli`
 
-### 2. Create a Gridsome project
+## Roadmap
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+- [ ] Integrate Fed76.info price checking to remind viewers of researched value
+- [ ] More to come...
